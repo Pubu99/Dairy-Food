@@ -59,7 +59,7 @@ const Loginuser = () => {
     <>
       <div className="ribbon"><button className="Btncontact" onClick={onBtncontactButtonClick}>Contact Us</button></div>
       <div className="Background">
-        <div className="topic">Dairy Food Store Room</div>
+        <div className="topic">Dairy Food Store</div>
         <div className="loginUser">
           <header>Login Page</header>
           <form onSubmit={(e) => handleLogin(e, 'user')}>
