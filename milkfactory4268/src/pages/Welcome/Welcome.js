@@ -9,6 +9,8 @@ const Welcome = () => {
     navigate("/");
   },[navigate]);
 
+  //check CI
+
   const onBtnwelcome2ButtonClick = useCallback(() => {
     navigate("/OrderDetails");
   },[navigate]);
